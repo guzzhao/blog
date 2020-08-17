@@ -10,3 +10,8 @@ tags:
 3. tim
 4. vscode
 5. clash for windows
+6. notepad3
+7. mobaterm
+8. WPS/office
+9. bandizip
+10. 火绒
