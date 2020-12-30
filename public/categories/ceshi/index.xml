@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ceshi on 小站</title>
+    <link>http://localhost:1313/categories/ceshi/</link>
+    <description>Recent content in ceshi on 小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 21 Oct 2020 17:40:47 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/ceshi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No</title>
+      <link>http://localhost:1313/post/no/</link>
+      <pubDate>Wed, 21 Oct 2020 17:40:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/no/</guid>
+      <description>&lt;p&gt;飒飒的&lt;/p&gt;
+&lt;!-- &lt;img style=&#34;display: block; margin: 0 auto;&#34; src=&#34;http://localhost:1313/2020-10-21_18-03-35.png&#34; alt=&#34;&#34; /&gt; --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
