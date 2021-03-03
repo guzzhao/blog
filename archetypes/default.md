@@ -8,7 +8,8 @@ description: ""
 tags: # 标签 [ "标签1", "标签2", "标签3" ]
 # - xx
 categories:   # 分类
-# - xx
+ - 笔记&教程
+ - 生活
 author: "guzz"
 ---
 

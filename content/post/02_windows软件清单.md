@@ -25,11 +25,52 @@ author: "guzz"
 ## 工具
 
 1. vscode
-2. notepad3
+2. notepad3(PORTABLE)
 3. EmEditor
 4. mobaterm
 5. WPS/office
 6. bandizip
+7. 天若ocr
+
+8. idea
+
+```
+notepad3替换
+
+@echo off
+cd /d "%~dp0"
+echo.
+echo 请确认是以管理员权限运行本批处理文件！!
+echo.
+pause
+cd /d "%~dp0"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /d "\"%~dp0Notepad3.exe\" /z" /f
+cls
+echo.
+echo.
+pause
+
+notepad3还原
+
+@echo off
+cd /d "%~dp0"
+echo.
+echo 请确认是以管理员权限运行本批处理文件！!
+echo.
+pause
+cd /d "%~dp0"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /d "\"%~dp0Notepad3.exe\" /z" /f
+cls
+echo.
+echo.
+pause
+
+
+
+
+
+```
+
 
 
 ## 其他
@@ -37,11 +78,6 @@ author: "guzz"
 1. tim
 2. clash for windows
 3. 火绒
+4. 微信
 
 
-<!-- <img style="display: block; margin: 0 auto;" src="/2020-10-21_18-03-35.png" alt="" /> -->
-<!--more-->
-
-
-
-![cc](/2020-10-21_18-03-35.png)
