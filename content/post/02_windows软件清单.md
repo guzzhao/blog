@@ -24,15 +24,15 @@ author: "guzz"
 
 ## 工具
 
-1. vscode
-2. notepad3(PORTABLE)
-3. EmEditor
-4. mobaterm
-5. WPS/office
-6. bandizip
-7. 天若ocr
-
-8. idea
+   
+1. notepad3(PORTABLE)
+2. EmEditor
+3. WPS/office
+4. bandizip
+5. 天若ocr
+6. Everything
+7. PotPlayer64
+8.  wiztree
 
 ```
 notepad3替换
@@ -73,6 +73,21 @@ pause
 ```
 
 
+## 开发工具
+
+   1. idea
+   2. git
+   3. Go
+   4. gradle
+   5. hugo
+   6. maven
+   7. mobaterm
+   8. vscode
+   9. mysql8
+   10. nodejs
+   11. openjdk11
+   12. pgsql
+
 
 ## 其他
 
@@ -82,3 +97,6 @@ pause
 4. 微信
 
 
+## windows设置
+1. 开启h-v/wsl2
+2. 
