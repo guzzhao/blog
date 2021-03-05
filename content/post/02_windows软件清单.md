@@ -20,6 +20,11 @@ author: "guzz"
 
 ## 浏览器
 - edge
+  - 拓展
+    1. Git Master
+    2. uBlock Origin
+    3. 侧边翻译
+    4. 暴力猴
 - firefox
 
 ## 工具
