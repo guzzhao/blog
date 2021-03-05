@@ -34,8 +34,9 @@ author: "guzz"
 7. PotPlayer64
 8.  wiztree
 
-```
-notepad3替换
+```bash
+
+# notepad3替换
 
 @echo off
 cd /d "%~dp0"
@@ -50,7 +51,7 @@ echo.
 echo.
 pause
 
-notepad3还原
+# notepad3还原
 
 @echo off
 cd /d "%~dp0"
@@ -99,4 +100,16 @@ pause
 
 ## windows设置
 1. 开启h-v/wsl2
-2. 
+```bash
+# wsl2 
+export windows_host=`cat /etc/resolv.conf|grep nameserver|awk '{print $2}'`
+export ALL_PROXY=socks5://$windows_host:10808
+export HTTP_PROXY=$ALL_PROXY
+export http_proxy=$ALL_PROXY
+export HTTPS_PROXY=$ALL_PROXY
+export https_proxy=$ALL_PROXY
+
+
+# 配置防火墙 !!!
+```
+ 
