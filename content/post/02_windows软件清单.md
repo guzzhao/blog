@@ -1,12 +1,12 @@
 ---
 title: "windows软件清单"
 date: 2020-10-21T17:40:47+08:00
-lastmod: 2020-10-21T17:40:47+08:00
+lastmod: 2021-03-05
 draft: false #true，除非使用 --buildDrafts 参数，否则不会发布文章
 keywords: []
 description: ""
 tags: # 标签 [ "标签1", "标签2", "标签3" ]
-- ceshi
+- 软件
 categories:   # 分类
 # - hugo
 - windows
@@ -19,20 +19,20 @@ author: "guzz"
 <!--more-->
 
 ## 浏览器
-1. edge
-2. firefox
+- edge
+- firefox
 
 ## 工具
 
    
-1. notepad3(PORTABLE)
-2. EmEditor
-3. WPS/office
-4. bandizip
-5. 天若ocr
-6. Everything
-7. PotPlayer64
-8.  wiztree
+- notepad3(PORTABLE)
+- EmEditor
+- WPS/office
+- bandizip
+- 天若ocr
+- Everything
+- PotPlayer64
+-  wiztree
 
 ```bash
 
@@ -76,30 +76,34 @@ pause
 
 ## 开发工具
 
-   1. idea
-   2. git
-   3. Go
-   4. gradle
-   5. hugo
-   6. maven
-   7. mobaterm
-   8. vscode
-   9. mysql8
-   10. nodejs
-   11. openjdk11
-   12. pgsql
+- idea
+- git
+- Go
+- gradle
+- hugo
+- maven
+- mobaterm
+- vscode
+- mysql8
+- nodejs
+- openjdk11
+- pgsql
 
 
 ## 其他
 
-1. tim
-2. clash for windows
-3. 火绒
-4. 微信
+- tim
+- clash for windows
+- 火绒
+- 微信
 
 
 ## windows设置
-1. 开启h-v/wsl2
+
+- 开启h-v/wsl2
+
+  1. 在wsl2配置
+  2. 配置防火墙 **!!!**
 ```bash
 # wsl2 
 export windows_host=`cat /etc/resolv.conf|grep nameserver|awk '{print $2}'`
@@ -110,6 +114,5 @@ export HTTPS_PROXY=$ALL_PROXY
 export https_proxy=$ALL_PROXY
 
 
-# 配置防火墙 !!!
 ```
- 
+
